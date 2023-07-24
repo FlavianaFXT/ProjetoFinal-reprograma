@@ -1,0 +1,14 @@
+.bodyContainer{
+    height: 90vh;
+    background-color: #f09bb5;
+    margin: 0.5rem;
+    border-radius: 4px;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+.cardsContainer{
+    display: flex;
+    justify-content: space-around;
+}

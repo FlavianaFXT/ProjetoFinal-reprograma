@@ -1,0 +1,39 @@
+.brechoLineContainer{
+    background-color: #f09bb5;
+    margin: 0.5rem;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.searchBrecho{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+.buttonsLineBrecho{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+.localShopContainer{
+    display: flex;
+}
+
+.lateralBrechoBar{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #f09bb5;
+    margin: 10px;
+    border-radius: 4px;
+    line-height: 3rem;
+}
+
+.shopBrechoArea{
+    border: 2px solid #f09bb5;
+    margin: 10px;
+    border-radius: 4px;
+}
+

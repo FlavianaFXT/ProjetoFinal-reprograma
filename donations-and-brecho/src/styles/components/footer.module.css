@@ -1,0 +1,21 @@
+.footerContainer{
+    background-color:#ff7675 ;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1rem;
+    padding: 0.5rem;
+    color: #5f27cd;
+    font-weight: bold;
+    margin: 0 0.5rem;
+    border-radius: 4px;
+}
+
+.desenvolvedContainer{
+    display: flex;
+    justify-content: space-around;
+}
+
+.redesContainer{
+    display: flex;
+    justify-content: space-around;
+}

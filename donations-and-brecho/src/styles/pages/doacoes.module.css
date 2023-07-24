@@ -1,0 +1,26 @@
+.donationsBody{
+    height: 90vh;
+    background-color: #f09bb5;
+    margin: 0.5rem;
+    border-radius: 4px;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+.bodyItens{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.links{
+    border: solid 2px aliceblue ;
+    margin: 10px;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.links:hover{
+    background-color: aquamarine;
+}
