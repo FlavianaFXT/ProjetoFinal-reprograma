@@ -29,11 +29,29 @@
     margin: 10px;
     border-radius: 4px;
     line-height: 3rem;
+    width: 20%;
+}
+
+li{
+    text-align: left;
+    margin-left: 50px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+   color: #f09bb5;
 }
 
 .shopBrechoArea{
     border: 2px solid #f09bb5;
     margin: 10px;
     border-radius: 4px;
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: space-around;
 }
 

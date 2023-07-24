@@ -3,7 +3,9 @@ import Footer from "../components/Footer"
 import styles from '../styles/pages/home.module.css'
 import Img from '../components/Img'
 import HomeIcon from '../assets/handshake.png'
-import Text from '../components/Text'
+import BodyTitle from "../components/BodyTitle"
+import Subtitle from '../components/Subtitle'
+
 
 
 const Home = () => {
@@ -13,7 +15,10 @@ const Home = () => {
     <body className={styles.bodyContainer}>
         <Img src={HomeIcon} alt="mãos dadas em formato de coração"/>
     </body>
-    <Text text="Tenho apenas duas mãos e o sentimento do mundo. (Carlos Drummond de Andrade)" />
+    <div className={styles.citacao}>
+       <BodyTitle title="Tenho apenas duas mãos e o sentimento do mundo." />
+       <Subtitle subtitle="(Carlos Drummond de Andrade)" />
+    </div>
     <Footer />
   </>
   )

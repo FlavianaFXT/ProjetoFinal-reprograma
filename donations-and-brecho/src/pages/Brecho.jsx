@@ -1,3 +1,5 @@
+
+import BrechoProductsCards from "../components/BrechoProductsCards"
 import Footer from "../components/Footer"
 import Header from "../components/Header"
 import Img from "../components/Img"
@@ -22,19 +24,22 @@ const Brecho = () => {
       </body>
       <div className={styles.localShopContainer}>
           <div className={styles.lateralBrechoBar}>
-            <div>
-              <Subtitle subtitle="Quer vender?" />
-              <button>Cadastre seu Produto Aqui</button>
-            </div>
-            <div>
-              <Subtitle subtitle="Busca por categorias" />
-              <li>Roupas</li>
-              <li>Calçados</li>
-              <li>Acessórios</li>
-            </div>
+              <div>
+                <Subtitle subtitle="Quer vender?" />
+                <button>Cadastre seu Produto Aqui</button>
+              </div>
+              <div>
+                <Subtitle subtitle="Busca por categorias" />
+                <a href=""><li>Roupas</li></a>
+                <a href=""><li>Calçados</li></a>
+                <a href=""> <li>Acessórios</li></a>
+                <a href=""><li>Masculino</li></a>
+                <a href=""><li>Feminino</li></a>
+                <a href=""><li>Infantil</li></a>
+              </div>
           </div>
           <div className={styles.shopBrechoArea}>
-              <h1>PRODUTOS AQUI EM CARDS CRIADOS PARA ESSA SESSAO</h1>
+            <BrechoProductsCards />
           </div>
       </div>
       <Footer />

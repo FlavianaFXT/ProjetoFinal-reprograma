@@ -12,10 +12,22 @@
 
 .desenvolvedContainer{
     display: flex;
-    justify-content: space-around;
+    justify-content: left;
+    align-items: center;
+}
+
+.logoReprograma{
+    display: flex;
+    width: 20%;
+}
+
+.redesIcons{
+    width: 40%;
 }
 
 .redesContainer{
     display: flex;
-    justify-content: space-around;
+    justify-content: right;
+    align-items: center;
+    width: 50%;
 }
