@@ -2,9 +2,9 @@
 import BrechoProductsCards from "../components/BrechoProductsCards"
 import Footer from "../components/Footer"
 import Header from "../components/Header"
-import Img from "../components/Img"
 import Subtitle from "../components/Subtitle"
 import styles from '../styles/pages/brecho.module.css'
+import * as Icon from 'phosphor-react'
 
 const Brecho = () => {
   return (
@@ -14,15 +14,15 @@ const Brecho = () => {
         <div className={styles.brechoLineContainer}>
           <div className={styles.searchBrecho}>
             <input type="text" value="" />
-            <Img src="" alt="lupa de busca" />
+            < Icon.MagnifyingGlass size={30} />
           </div>
           <div className={styles.buttonsLineBrecho}>
-            <a href=""><Img src="" alt="carrinho" /></a>
-            <button>Login</button>
+            <a href=""><Icon.ShoppingCart size={30}/></a>
+            <button className={styles.loginButton}>Login</button>
           </div>
         </div>
       </body>
-      <div className={styles.localShopContainer}>
+      <main className={styles.localShopContainer}>
           <div className={styles.lateralBrechoBar}>
               <div>
                 <Subtitle subtitle="Quer vender?" />
@@ -41,7 +41,7 @@ const Brecho = () => {
           <div className={styles.shopBrechoArea}>
             <BrechoProductsCards />
           </div>
-      </div>
+      </main>
       <Footer />
     </>
   )

@@ -1,14 +1,16 @@
-import Img from "./Img"
 import Subtitle from "./Subtitle"
 import Text from "./Text"
 import styles from '../styles/components/card.module.css'
 
-const Card = () => {
+const Card = ({icon, subtitle, text}) => {
   return (
     <div className={styles.cardContainer}>
-        <Img src="" alt="icone"/>
-        <Subtitle subtitle="titulo do card"/>
-        <Text text= "texto do card" />
+        {icon}
+        <div className={styles.textContainer}>
+          <Subtitle subtitle={subtitle}/>
+          <Text text= {text} />
+        </div>
+        
     </div>
   )
 }

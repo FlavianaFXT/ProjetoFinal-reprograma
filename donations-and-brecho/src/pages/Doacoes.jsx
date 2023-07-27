@@ -4,8 +4,7 @@ import Img from "../components/Img"
 import imgDonation from '../assets/doacoes.png'
 import Footer from "../components/Footer"
 import styles from '../styles/pages/doacoes.module.css'
-import Subtitle from "../components/Subtitle"
-import QueroDoar from './QueroDoar'
+import {Link} from 'react-router-dom'
 
 
 const Doacoes = () => {
@@ -15,15 +14,20 @@ const Doacoes = () => {
       <body className={styles.donationsBody}>
         <BodyTitle title="Doações"/>
         <div className={styles.bodyItens}>
-          <button className={styles.links} onClick={QueroDoar}>
-              <Img src="" alt="icone"/>
-              <Subtitle subtitle="Quero doar" />
-          </button>
-          <Img src={imgDonation} alt=""/>
-          <button className={styles.links}>
-              <Img src="" alt="icone"/>
-              <Subtitle subtitle="Quero doações" />
-          </button>
+          <Img src={imgDonation} alt="mão ofertando um coração"/>
+          <div className={styles.navLinks}>
+            <nav className={styles.links} >
+              <Link to='/querodoar'>
+                  <h3>QUERO DOAR</h3>
+              </Link>
+            </nav>
+            <nav className={styles.links}>
+              <Link to='/querodoacoes'>
+                  <h3>QUERO DOAÇÕES</h3>
+              </Link>
+            </nav>
+          </div>
+         
         </div>
       </body>
       <Footer />

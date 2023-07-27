@@ -1,28 +1,28 @@
-.brechoLineContainer{
+.wantDonationBody{
     background-color: #f09bb5;
-    margin: 0.5rem;
-    border-radius: 4px;
-    display: flex;
-    justify-content: space-between;
+   height: 20vh;
+   margin: 0.5rem;
+   border-radius: 4px;
+   /* /* align-items: center; */
+   justify-content: center; 
+   padding: 10px 0;
 }
 
-.searchBrecho{
-    display: flex;
-    justify-content: space-around;
-    margin: 10px;
+.bodyTitle{
+    justify-content: center;
 }
 
-.buttonsLineBrecho{
+.buttonsLineWantDonations{
     display: flex;
-    justify-content: space-around;
-    margin: 10px;
+    justify-content: right;
+    margin: 5px  20px;
 }
 
-.localShopContainer{
+.donationsArea{
     display: flex;
 }
 
-.lateralBrechoBar{
+.lateralDonationsBar{
     display: flex;
     flex-direction: column;
     border: 2px solid #f09bb5;
@@ -32,20 +32,7 @@
     width: 20%;
 }
 
-li{
-    text-align: left;
-    margin-left: 50px;
-}
-
-a{
-    text-decoration: none;
-}
-
-a:hover{
-   color: #f09bb5;
-}
-
-.shopBrechoArea{
+.colectDonationsArea{
     border: 2px solid #f09bb5;
     margin: 10px;
     border-radius: 4px;
@@ -62,4 +49,3 @@ a:hover{
     font-weight: bolder;
     color: aliceblue;
 }
-

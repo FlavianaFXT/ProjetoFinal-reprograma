@@ -5,6 +5,8 @@ import Doacoes from './pages/Doacoes'
 import Brecho from './pages/Brecho'
 import Busqueaqui from './pages/Busqueaqui'
 import Faleconosco from './pages/Faleconosco'
+import QueroDoar from './pages/QueroDoar'
+import QueroDoacoes from './pages/QueroDoacoes'
 
 
 const Router = () => {
@@ -18,8 +20,11 @@ const Router = () => {
                 <Route path='/busqueaqui' element={<Busqueaqui />}/>
                 <Route path='/faleconosco' element={<Faleconosco />}/>
             </Routes>
+            <Routes>
+                <Route path='/querodoar' element={<QueroDoar />}/>
+                <Route path='/querodoacoes' element={<QueroDoacoes />} />
+            </Routes>
         </BrowserRouter>
-
     )
 }
 
