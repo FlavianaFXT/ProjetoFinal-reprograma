@@ -1,6 +1,6 @@
-# ProjetoFinal-reprograma
+# ProjetoFinal <>
 
-Projeto final apresentado com requisito para a conclusão do curso Todas em Tech da {reprograma} (inserir logo)
+Projeto final apresentado como requisito para a conclusão do curso Todas em Tech da <img src="src/assets/reprograma-fundos-claros.png" alt="logo reprograma" size={100}>
 Este é um MVP - Minimum Viable Product - que terá continuação e implementações futuras.
 
 DESCRIÇÃO DO PROJETO
