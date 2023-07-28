@@ -1,4 +1,4 @@
-import {BrowserRouter, Routes, Route} from 'react-router-dom'
+import {BrowserRouter, Routes, Route} from 'react-dom'
 import Home from './pages/Home'
 import Sobre from './pages/Sobre'
 import Doacoes from './pages/Doacoes'
@@ -13,9 +13,9 @@ const Router = () => {
     return(
         <BrowserRouter>
             <Routes>
-                <Route path='/' element={<Home />}/>
-                <Route path='/sobre' element={<Sobre />}/>
-                <Route path='/doacoes' element={<Doacoes />}/>
+                <Route path='/' element={<Home />} />
+                <Route path='/sobre' element={<Sobre />} />
+                <Route path='/doacoes' element={<Doacoes />} />
                 <Route path='/brecho' element={<Brecho />}/>
                 <Route path='/busqueaqui' element={<Busqueaqui />}/>
                 <Route path='/faleconosco' element={<Faleconosco />}/>
