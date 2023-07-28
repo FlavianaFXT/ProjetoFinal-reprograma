@@ -1,10 +1,11 @@
+import {Link} from 'react-dom'
 import BodyTitle from "../components/BodyTitle"
 import Header from "../components/Header"
 import Img from "../components/Img"
 import imgDonation from '../assets/doacoes.png'
 import Footer from "../components/Footer"
 import styles from '../styles/pages/doacoes.module.css'
-import {Link} from 'react-dom'
+
 
 
 const Doacoes = () => {
