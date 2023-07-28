@@ -49,7 +49,7 @@ const Faleconosco = () => {
     <Header />
     <body className={styles.contactBody}>
         <BodyTitle title="Entre em contato conosco"/>
-        <Img src={contact} alt="imagem"/>
+        <Img className={styles.imgBody} src={contact} alt="imagem"/>
     </body>
     <main className={styles.formContainer}>
       <form className={styles.form} onSubmit={handleSubmit}>

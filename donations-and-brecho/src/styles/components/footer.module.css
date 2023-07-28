@@ -29,5 +29,23 @@
     display: flex;
     justify-content: right;
     align-items: center;
-    width: 50%;
+    width: 70%;
+}
+
+@media(max-width: 764px){
+    .redesContainer{
+        width: 100%;
+    }
+}
+
+@media(max-width:600px){
+    .footerContainer{
+        flex-direction: column;
+    }
+}
+
+@media(max-width: 512px){
+    .footerContainer{
+        font-size: 0.8rem;
+    }
 }

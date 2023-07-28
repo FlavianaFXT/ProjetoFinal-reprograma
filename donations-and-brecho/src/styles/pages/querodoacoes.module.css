@@ -1,6 +1,6 @@
 .wantDonationBody{
     background-color: #f09bb5;
-   height: 20vh;
+   height: 10%;
    margin: 0.5rem;
    border-radius: 4px;
    /* /* align-items: center; */
@@ -28,12 +28,11 @@
     border: 2px solid #f09bb5;
     margin: 10px;
     border-radius: 4px;
-    line-height: 3rem;
+    line-height: 2rem;
     width: 20%;
 }
 
 .colectDonationsArea{
-    border: 2px solid #f09bb5;
     margin: 10px;
     border-radius: 4px;
     width: 80%;
@@ -48,4 +47,57 @@
     width: 50px;
     font-weight: bolder;
     color: aliceblue;
+}
+
+.loginButton:hover{
+    background-color: #f09bb5;
+}
+
+@media(max-width:1000px){
+    .colectDonationsArea{
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+
+@media(max-width:764px){
+    .colectDonationsArea{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media(max-width: 738px){
+    .donationsArea{
+        flex-direction: column;
+    }
+
+    .lateralDonationsBar{
+        width: 100%;
+        margin: 0.5rem;
+    }
+
+    .categoriesContainer{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .colectDonationsArea{
+        margin: 10px 100px;        
+    }
+}
+
+@media(max-width: 512px){
+    h2{
+        font-size: 1rem;
+    }
+
+    .colectDonationsArea{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media(max-width: 408px){
+    .categoriesContainer{
+        grid-template-columns: repeat(2,1fr);
+    }
 }

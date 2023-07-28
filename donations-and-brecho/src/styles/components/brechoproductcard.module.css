@@ -9,6 +9,15 @@
     line-height: 2rem;
 }
 
+h3{
+    color: blueviolet;
+    font-size: 20px;
+}
+
+h4{
+    font-size: 15px;
+}
+
 .imgProduct{
     width: 80%;
 }

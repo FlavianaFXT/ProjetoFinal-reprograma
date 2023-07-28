@@ -1,6 +1,5 @@
 import styles from '../styles/components/footer.module.css'
 import Text from './Text'
-import Img from './Img'
 import logoReprograma from '../assets/reprograma-fundos-claros.png'
 import linkedinIcon from '../assets/in.png'
 import githubIcon from '../assets/github.png'

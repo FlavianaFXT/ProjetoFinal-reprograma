@@ -1,11 +1,15 @@
 .wantDonationBody{
     background-color:  #f09bb5;
-   height: 100vh;
+   height: 60%;
    margin: 0.5rem;
    border-radius: 4px;
    align-items: center;
    justify-content: center;
    padding: 50px 0;
+}
+
+.imgBody{
+    width: 80%;
 }
 
 .formContainer{
@@ -45,4 +49,5 @@
     margin: 0;
     padding: 0;
 }
+
 

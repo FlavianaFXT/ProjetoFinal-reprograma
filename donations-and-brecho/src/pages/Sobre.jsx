@@ -1,7 +1,7 @@
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 import Img from '../components/Img'
-import imgSobre from '../assets/people.png'
+import imgSobre from '../assets/person.png'
 import styles from '../styles/pages/sobre.module.css'
 import BodyTitle from '../components/BodyTitle'
 import Card from '../components/Card'
@@ -14,12 +14,12 @@ const Sobre = () => {
       <Header />
       <body className={styles.bodyContainer}>
         <BodyTitle title="Sobre Nós" />
-        <Img src={imgSobre} alt="desenho de pessoas"/>
+        <Img className={styles.imgBody} src={imgSobre} alt="desenho de pessoas"/>
       </body>
       <div className={styles.cardsContainer}>
         <Card 
         icon = {<Icon.UsersThree  size={150} color="#686AAC" weight="thin"/>}
-        subtitle="Sobre Nós" 
+        subtitle="Quem somos" 
         text="Somos uma Organização sem fins lucrativos que busca auxiliar a comunidade em geral a ajudar quem precisa."/>
         <Card 
         icon = {<Icon.Target size={150} color="#686AAC" weight="thin"/>}

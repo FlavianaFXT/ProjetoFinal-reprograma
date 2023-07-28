@@ -12,9 +12,9 @@ const BrechoProductCard = ({src, title, text, subtitle}) => {
         <div className={styles.productCard}>
             <Img className={styles.imgProduct} src={src} alt="imagem do produto"/>
             <div className={styles.cardTextContainer}>
-                <h4>{title}</h4>
+                <h3>{title}</h3>
+                <h4>{subtitle}</h4>
                 <Text text={text}/>
-                <Subtitle subtitle={subtitle}/>
             </div>
             <div className={styles.buttons}>
                 <button>Detalhes</button>

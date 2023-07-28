@@ -15,7 +15,7 @@ const QueroDoar = () => {
     <Header />
     <body className={styles.wantDonationBody}>
         <BodyTitle title="Quero Doar" />
-        <Img src={maosdoando} alt="mãos entregando um coração" />
+        <Img  className={styles.imgBody} src={maosdoando} alt="mãos entregando um coração" />
     </body>
     <main className={styles.formContainer}>
       <Subtitle subtitle="Preencha o formulário abaixo para registrar seus dados e os itens que deseja doar." />

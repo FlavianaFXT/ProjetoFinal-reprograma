@@ -1,5 +1,5 @@
 .bodyContainer{
-    height: 100vh;
+    height: 30%;
     background-color: #f09bb5;
     margin: 0.5rem;
     border-radius: 4px;
@@ -11,4 +11,14 @@
 .cardsContainer{
     display: flex;
     justify-content: space-around;
+}
+
+.imgBody{
+    width: 80%;
+}
+
+@media(max-width:600px){
+    .cardsContainer{
+        flex-direction: column;
+    }
 }

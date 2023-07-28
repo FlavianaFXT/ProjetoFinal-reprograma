@@ -1,9 +1,16 @@
 .brechoLineContainer{
     background-color: #f09bb5;
     margin: 0.5rem;
+    padding: 0;
     border-radius: 4px;
     display: flex;
     justify-content: space-between;
+}
+
+h2{
+    text-align: center;
+    margin-top: 10px;
+    color: #9a455e;
 }
 
 .searchBrecho{
@@ -28,7 +35,7 @@
     border: 2px solid #f09bb5;
     margin: 10px;
     border-radius: 4px;
-    line-height: 3rem;
+    line-height: 2rem;
     width: 20%;
 }
 
@@ -46,7 +53,6 @@ a:hover{
 }
 
 .shopBrechoArea{
-    border: 2px solid #f09bb5;
     margin: 10px;
     border-radius: 4px;
     width: 80%;
@@ -55,11 +61,65 @@ a:hover{
     justify-content: space-around;
 }
 
+@media(max-width:1000px){
+    .shopBrechoArea{
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+
+@media(max-width:764px){
+    .shopBrechoArea{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media(max-width: 738px){
+    .localShopContainer{
+        flex-direction: column;
+    }
+
+    .lateralBrechoBar{
+        width: 100%;
+        margin: 0.5rem;
+    }
+
+    .categoriesContainer{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .shopBrechoArea{
+        margin: 10px 100px;        
+    }
+}
+
+@media(max-width: 512px){
+    h2{
+        font-size: 1rem;
+    }
+
+    .shopBrechoArea{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media(max-width: 408px){
+    .categoriesContainer{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+
 .loginButton{
     background-color: #9a455e;
     border: solid 1px aliceblue;
     width: 50px;
     font-weight: bolder;
     color: aliceblue;
+}
+
+.loginButton:hover{
+    background-color: #f09bb5;
 }
 

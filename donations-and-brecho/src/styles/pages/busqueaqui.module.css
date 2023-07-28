@@ -1,6 +1,6 @@
 .searchBody{
    background-color:  #f09bb5;
-   height: 100vh;
+   height: 60%;
    margin: 0.5rem;
    border-radius: 4px;
    align-items: center;
@@ -13,4 +13,8 @@
     border: solid 2px #f09bb5;
     margin: 0.5rem;
     border-radius: 4px;
+}
+
+.bodyImg{
+    width: 80%;
 }

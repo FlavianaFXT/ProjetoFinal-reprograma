@@ -8,14 +8,25 @@
     border-radius: 4px;
 }
 
+
+
 .link{
     text-decoration: none;
     color: #8e44ad;
     font-size: 1.5rem;
 }
 
-
 li{
     list-style: none;
+}
+
+@media(max-width: 764px){
+    .menuContainer{
+        flex-direction: column ;
+    }
+
+    li{
+        margin: 10px 0;
+    }
 }
 

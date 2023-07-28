@@ -16,6 +16,7 @@ const Brecho = () => {
             <input type="text" value="" />
             < Icon.MagnifyingGlass size={30} />
           </div>
+          <h2>Brechó on-line</h2>
           <div className={styles.buttonsLineBrecho}>
             <a href=""><Icon.ShoppingCart size={30}/></a>
             <button className={styles.loginButton}>Login</button>
@@ -30,12 +31,14 @@ const Brecho = () => {
               </div>
               <div>
                 <Subtitle subtitle="Busca por categorias" />
-                <a href=""><li>Roupas</li></a>
-                <a href=""><li>Calçados</li></a>
-                <a href=""> <li>Acessórios</li></a>
-                <a href=""><li>Masculino</li></a>
-                <a href=""><li>Feminino</li></a>
-                <a href=""><li>Infantil</li></a>
+                <div className={styles.categoriesContainer}>
+                  <a href=""><li><Icon.CaretRight size={15} />Roupas</li></a>
+                  <a href=""><li><Icon.CaretRight size={15} />Calçados</li></a>
+                  <a href=""> <li><Icon.CaretRight size={15} />Acessórios</li></a>
+                  <a href=""><li><Icon.CaretRight size={15} />Masculino</li></a>
+                  <a href=""><li><Icon.CaretRight size={15} />Feminino</li></a>
+                  <a href=""><li><Icon.CaretRight size={15} />Infantil</li></a>
+                </div>
               </div>
           </div>
           <div className={styles.shopBrechoArea}>
