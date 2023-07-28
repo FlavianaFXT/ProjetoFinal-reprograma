@@ -4,7 +4,7 @@ import Img from "../components/Img"
 import imgDonation from '../assets/doacoes.png'
 import Footer from "../components/Footer"
 import styles from '../styles/pages/doacoes.module.css'
-import {Link} from 'react-router-dom'
+import {Link} from 'react-dom'
 
 
 const Doacoes = () => {
