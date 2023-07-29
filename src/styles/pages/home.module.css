@@ -12,5 +12,10 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 50px 300px;
+    margin-left:25%;
+    text-align: center;
+}
+
+.bodyImg{
+    width: 35%;
 }

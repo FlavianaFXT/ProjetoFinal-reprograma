@@ -5,7 +5,7 @@ import Img from '../components/Img'
 import styles from '../styles/pages/busqueaqui.module.css'
 import lupa from '../assets/lupa-g.png'
 import * as Icon from 'phosphor-react'
-import GetInstitucions from '../components/GetInstitucions'
+// import GetInstitucions from '../components/GetInstitucions'
 
 
 const Busqueaqui = () => {
@@ -29,10 +29,10 @@ const Busqueaqui = () => {
             placeholder='Digite seu CEP' 
             onChange={handleChange} 
             />
-            < Icon.MagnifyingGlass size={30} />
+            < Icon.MagnifyingGlass size={25} />
          </div> 
          <div className={styles.institucionsContainer}>
-            <GetInstitucions />
+            {/* <GetInstitucions /> */}
          </div>
        </div>
      

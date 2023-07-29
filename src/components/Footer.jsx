@@ -13,10 +13,10 @@ const Footer = () => {
         </div>
         <div className={styles.redesContainer}>
             <Text text="Siga-me nas redes: "/>
-            <a href="https://www.linkedin.com/in/flaviana-ferraz-frontend/">
+            <a href="https://www.linkedin.com/in/flaviana-ferraz-frontend/" target='_blank' rel='noreferrer'>
                 <img className={styles.redesIcons} src={linkedinIcon} alt="logo linkedin" />
             </a>
-            <a href="https://github.com/FlavianaFXT">
+            <a href="https://github.com/FlavianaFXT" target='_blank' rel='noreferrer'>
                 <img className={styles.redesIcons} src={githubIcon} alt="logo github" />
             </a>
         </div>

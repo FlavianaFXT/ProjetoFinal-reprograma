@@ -13,8 +13,15 @@
     border: solid 2px #f09bb5;
     margin: 0.5rem;
     border-radius: 4px;
+    height: 30vh;
+}
+
+.searchInput{
+    display: flex;
+    justify-content: center;
+    margin: 0.5rem;
 }
 
 .bodyImg{
-    width: 80%;
+    width: 35%;
 }

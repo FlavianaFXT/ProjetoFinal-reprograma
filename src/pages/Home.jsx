@@ -13,7 +13,7 @@ const Home = () => {
   <>
     <Header />
     <body className={styles.bodyContainer}>
-        <Img src={HomeIcon} alt="mãos dadas em formato de coração"/>
+        <Img className={styles.bodyImg} src={HomeIcon} alt="mãos dadas em formato de coração"/>
     </body>
     <div className={styles.citacao}>
        <BodyTitle title="Tenho apenas duas mãos e o sentimento do mundo." />
