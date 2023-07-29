@@ -148,14 +148,22 @@ Foi utilizada ainda a estrutura de componentes para compor partes das páginas c
 Para rodar esse projeto em sua máquina, siga os passos a seguir:
 
 1️⃣ Realize o fork desse repositorio
+
 2️⃣ Clone na sua máquina
+
 3️⃣ Entre no diretório do repositorio clonado e as dependências do projeto, com o comando:
+```bash
                                            npm install ou npm i
+```
+
 4️⃣ Por fim rode o projeto:
+```bash
                            npm run dev
+```
+
 O navegador será aberto automaticamente usando a porta localhost:3000 
   
-## 🧠 CONFIRA O RESULTADO: https://projeto-final-reprograma-ngxo6h0lb-flavianafxt.vercel.app/
+### 🧠 CONFIRA O RESULTADO: https://projeto-final-reprograma-ngxo6h0lb-flavianafxt.vercel.app/
 
 
   
