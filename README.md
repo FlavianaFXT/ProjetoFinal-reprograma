@@ -126,8 +126,6 @@ Foi utilizada ainda a estrutura de componentes para compor partes das páginas c
 
 ✔️ Iniciação às funcionalidades da página Busque Aqui, com banco de dados armazenado localmente em um arquivo  tipo json
 
-✔️ Funcionalidades do form implementado na página Fale Conosco e integração deste com o firebase para receber as mensagens enviadas pelo site
-
 ✔️ Responsividade
 
 ## 🧠 IMPLEMENTAÇÕES FUTURAS
