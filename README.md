@@ -1,4 +1,4 @@
-# ProjetoFinal <>
+# ProjetoFinal 
 
 Projeto final apresentado como requisito para a conclusão do curso Todas em Tech da <img src="src/assets/reprograma-fundos-claros.png" alt="logo reprograma" width="200">
 
@@ -16,7 +16,7 @@ Flaviana Ferraz é uma sertaneja de Pernambuco morando no sertão da Paraiba, fo
 - [GitHub](https://github.com/flavianafxt)
 
 
-##👉 DESCRIÇÃO DO PROJETO
+## 🧠 DESCRIÇÃO DO PROJETO
 
 ## 🧠 Contexto
 
@@ -37,8 +37,8 @@ O objetivo aqui era criar um site responsivo usando ReactJS, de uma instituiçã
 
 Foi utilizada ainda a estrutura de componentes para compor partes das páginas com maior facilidade.
 
-👉 ## Estrutura do projeto
-ESTRUTURA DE PASTAS
+## 🧠 Estrutura do projeto
+
 
 ![image](https://github.com/FlavianaFXT/ProjetoFinal-reprograma/assets/113718720/7e4d2534-e0d0-4ab7-a079-f2d60cbefa0f)
 
@@ -49,7 +49,7 @@ ESTRUTURA DE PASTAS
 ![image](https://github.com/FlavianaFXT/ProjetoFinal-reprograma/assets/113718720/c98f1294-6a58-4dc0-8f1e-a923ece4dfbe)
 
 
-👉 ##TECNOLOGIAS UTILIZADAS
+## 🧠TECNOLOGIAS UTILIZADAS
 | Ferramenta | Descrição |
 | --- | --- |
 | `ReactJS` | framework web|
@@ -63,7 +63,7 @@ ESTRUTURA DE PASTAS
 | `Github` | Hospedagem do código fonte integrado com gerenciador de versionamento|
   
 
-👉 ###PASSO A PASSO UTILIZADO
+## 🧠 PASSO A PASSO UTILIZADO
 
 1️⃣ Criação de repositorio no github e clone na maquina em que trabalhei no projeto através do Git Bash
 2️⃣ Start do projeto na maquina utilizando o VS Code e seu terminal, atraves dos comandos de iniciação vite e node
@@ -112,7 +112,7 @@ ESTRUTURA DE PASTAS
 1️⃣ 0️⃣ Deploy do projeto no Vercel
 
 
-👉 ##FUNCIONALIDADES IMPLEMENTADAS
+## 🧠 FUNCIONALIDADES IMPLEMENTADAS
 ✔️ Utilização do Router para navegação entre páginas
 ✔️ Integração com o firebase para criação de banco de dados para o recebimento das mensagens enviadas via página Fale Conosco
 ✔️ Eventos de clique que levam a páginas externas e entre páginas
@@ -122,7 +122,7 @@ ESTRUTURA DE PASTAS
 ✔️ Funcionalidades do form implementado na página Fale Conosco e integração deste com o firebase para receber as mensagens enviadas pelo site
 ✔️ Responsividade
 
-👉 ##IMPLEMENTAÇÕES FUTURAS
+## 🧠 IMPLEMENTAÇÕES FUTURAS
 - [ ] Integração da página Quero Doar com banco de dados para receber as informações de doação e do doador
 - [ ] Página de Login e Login
 - [ ] Página do carrinho de compras (tanto para Quero Doações como para Brechó)
@@ -135,7 +135,7 @@ ESTRUTURA DE PASTAS
 - [ ] Finalizar funcionalidade de busca de instituições por CEP na Página Busque Aqui
 
 
-👉 ##COMO RODAR O PROJETO
+## 🧠 COMO RODAR O PROJETO
 
 Para rodar esse projeto em sua máquina, siga os passos a seguir:
 
@@ -147,7 +147,7 @@ Para rodar esse projeto em sua máquina, siga os passos a seguir:
                            npm run dev
 O navegador será aberto automaticamente usando a porta localhost:3000 
   
-CONFIRA O RESULTADO: https://projeto-final-reprograma-ngxo6h0lb-flavianafxt.vercel.app/
+## 🧠 CONFIRA O RESULTADO: https://projeto-final-reprograma-ngxo6h0lb-flavianafxt.vercel.app/
 
 
   
