@@ -24,7 +24,7 @@ O objetivo aqui era criar um site responsivo usando ReactJS, de uma instituiçã
   A ideia surgiu a partir de uma necessidade própria, tendo em vista que sempre fiz doações e, ao mudar de cidade, tenho tido dificuldade para encontrar locais que recebam o ano inteiro.
   Este é um MVP - Minimum Viable Product - que terá continuação e implementações futuras, que possibilita demonstrar habilidades e revisar todos os conteúdos vistos no curso de Front-End da {Reprograma}.
 
- ![image](https://github.com/FlavianaFXT/ProjetoFinal-reprograma/assets/113718720/9f22ee69-6258-40cc-9ad5-fa9df9b0d19a)
+![image](https://github.com/FlavianaFXT/ProjetoFinal-reprograma/assets/113718720/c431a970-e853-4c5d-92e6-c4a53c9919ce)
 
 ## O site contem 6 páginas, além de subpáginas:
 
@@ -74,12 +74,12 @@ Foi utilizada ainda a estrutura de componentes para compor partes das páginas c
    ```bash
   cd nome-projeto
    ```
-    ```bash
+  ```bash
     npm i
-    ```
-     ```bash
+  ```
+  ```bash
      npm run dev
-     ```
+  ```
   
 3️⃣ Exclusão de arquivos do projeto que não faremos uso e inserção de algum elemento em App.jsx para ver se o projeto está funcionando
 4️⃣Instalação do react-router-dom para criação do arquivo Router e possibilitar a navegação do Menu e para outras páginas componentes do site
