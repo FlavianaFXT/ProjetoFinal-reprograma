@@ -139,6 +139,7 @@ Foi utilizada ainda a estrutura de componentes para compor partes das páginas c
 - [ ] Página e formulário Cadastre seu produto aqui para quem deseja vender peças no brechó
 - [ ] Melhorar Banco de Dados de instituições cadastradas
 - [ ] Finalizar funcionalidade de busca de instituições por CEP na Página Busque Aqui
+- [ ] Acessibilidade
 
 
 ## 🧠 COMO RODAR O PROJETO
