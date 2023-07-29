@@ -2,8 +2,21 @@
 
 Projeto final apresentado como requisito para a conclusão do curso Todas em Tech da <img src="src/assets/reprograma-fundos-claros.png" alt="logo reprograma" width="200">
 
+### Quem é Flaviana?
 
-👉 ##DESCRIÇÃO DO PROJETO
+![image](https://github.com/FlavianaFXT/ProjetoFinal-reprograma/assets/113718720/1e13d5e7-b1b4-4701-a689-ec293ec77ea1)
+
+
+Flaviana Ferraz é uma sertaneja de Pernambuco morando no sertão da Paraiba, formada em Gestão Ambiental e Mestre em Recursos Hídricos, após mais de 10 anos de formada, aos 34 anos, decidiu fazer transição de carreira. Hoje, empreendedora e aluna {reprograma} trilhando os caminhos do Desenvolvimento FrontEnd.
+
+#### Contatos
+
+- [E-mail](flaviferraz@yahoo.com.br)
+- [LinkedIn](https://www.linkedin.com/in/flaviana-ferraz-frontend)
+- [GitHub](https://github.com/flavianafxt)
+
+
+##👉 DESCRIÇÃO DO PROJETO
 
 ## 🧠 Contexto
 
@@ -27,10 +40,14 @@ Foi utilizada ainda a estrutura de componentes para compor partes das páginas c
 👉 ## Estrutura do projeto
 ESTRUTURA DE PASTAS
 
-👉 Conteúdos:
- - [1. Router](#1-rotas---react-router)
- - [2. CSS no React](#2-como-usar-css-em-react)
- - 
+![image](https://github.com/FlavianaFXT/ProjetoFinal-reprograma/assets/113718720/7e4d2534-e0d0-4ab7-a079-f2d60cbefa0f)
+
+![image](https://github.com/FlavianaFXT/ProjetoFinal-reprograma/assets/113718720/53c29ff7-1137-472f-9caa-1b95345f4b2f)
+
+![image](https://github.com/FlavianaFXT/ProjetoFinal-reprograma/assets/113718720/132d0c9b-7ebf-46fb-9d78-72f3b53fd4d0)
+
+![image](https://github.com/FlavianaFXT/ProjetoFinal-reprograma/assets/113718720/c98f1294-6a58-4dc0-8f1e-a923ece4dfbe)
+
 
 👉 ##TECNOLOGIAS UTILIZADAS
 | Ferramenta | Descrição |
