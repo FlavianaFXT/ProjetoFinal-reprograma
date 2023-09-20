@@ -3,15 +3,25 @@
 Projeto final apresentado como requisito para a conclusão do curso Todas em Tech da <img src="src/assets/reprograma-fundos-claros.png" alt="logo reprograma" width="200">
 
 #Índice
+
 -[APRESENTAÇÃO](#Apresentação)
+
 -[DESCRIÇÃO DO PROJETO](#DEscrição-Do-Projeto)
+
 -[Estrutura do projeto](#Estrutura-DO-Projeto)
+
 -[TECNOLOGIAS UTILIZADAS](#Tecnologias-Utilizadas)
+
 -[PASSO A PASSO UTILIZADO](#Passo-A-Passo-Utilizado)
+
 -[FUNCIONALIDADES IMPLEMENTADAS](#Funcionalidades-Implementadas)
+
 -[IMPLEMENTAÇÕES FUTURAS](#Implementações-Futuras)
+
 -[COMO RODAR O PROJETO](#Como-Rodar-O-Projeto)
+
 -[CONFIRA O RESULTADO](#Confira-O-Resultado)
+
 
 # APRESENTAÇÃO
 
