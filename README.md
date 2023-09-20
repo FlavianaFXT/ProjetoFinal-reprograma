@@ -66,11 +66,8 @@ Foi utilizada ainda a estrutura de componentes para compor partes das páginas c
 
 
 ![image](https://github.com/FlavianaFXT/ProjetoFinal-reprograma/assets/113718720/7e4d2534-e0d0-4ab7-a079-f2d60cbefa0f)
-
 ![image](https://github.com/FlavianaFXT/ProjetoFinal-reprograma/assets/113718720/53c29ff7-1137-472f-9caa-1b95345f4b2f)
-
 ![image](https://github.com/FlavianaFXT/ProjetoFinal-reprograma/assets/113718720/132d0c9b-7ebf-46fb-9d78-72f3b53fd4d0)
-
 ![image](https://github.com/FlavianaFXT/ProjetoFinal-reprograma/assets/113718720/c98f1294-6a58-4dc0-8f1e-a923ece4dfbe)
 
 
